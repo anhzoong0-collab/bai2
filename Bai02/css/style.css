@@ -1,16 +1,27 @@
-body{
-    background-color: aliceblue;
-  
+/* Toàn bộ trang */
+body {
+    margin: 0;          /* Loại bỏ khoảng trắng mặc định */
+    padding: 0;         /* Loại bỏ padding mặc định */
+    font-family: Arial, sans-serif; /* Chọn font chữ */
+    background-color: #f5f5f5;     /* Màu nền nhạt */
+    color: #333;        /* Màu chữ */
 }
 
-
-/* Header **/
-header{
-    background-color: rgba(0, 0, 0, 0.596) 
- 
+/* Phần header */
+header {
+    background-color: #4CAF50; /* Màu xanh lá */
+    color: white;              /* Chữ màu trắng */
+    padding: 20px;             /* Khoảng cách bên trong */
+    text-align: center;        /* Canh giữa chữ */
 }
 
-footer{
-  
+/* Phần footer */
+footer {
+    background-color: #333;    /* Màu tối */
+    color: white;              /* Chữ màu trắng */
+    padding: 10px;             /* Khoảng cách bên trong */
+    text-align: center;        /* Canh giữa chữ */
+    position: fixed;           /* Luôn nằm dưới cùng màn hình */
+    bottom: 0;
+    width: 100%;               /* Chiếm toàn bộ chiều ngang */
 }
-
