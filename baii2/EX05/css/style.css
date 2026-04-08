@@ -1,62 +1,86 @@
-body{
-  
+/* Reset & Base */
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  background: #f4f4f4;
 }
 
 /* Global */
-.container{
-  
-
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
 }
 
-ul{
- 
-
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-/* Header **/
-header{
-  
-
+/* Header */
+header {
+  background: #3d4246;
+  color: #ffffff;
+  padding-top: 20px;
+  min-height: 70px;
+  border-bottom: 3px solid #84c0d8;
 }
 
-header a{
-  
-
+/* Links */
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: color 0.3s ease; /* thêm mượt hover */
 }
 
-header li{
-  
-
+/* Navigation items */
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px;
 }
 
-header #branding{
-  
-
+/* Branding */
+header #branding {
+  float: left;
 }
 
-header #branding h1{
- 
-
+header #branding h1 {
+  margin: 0;
 }
 
-header nav{
-  
-
+/* Navigation */
+header nav {
+  float: right;
+  margin-top: 10px;
 }
 
-header .highlight, header .current a{
-
-
+/* Active & Highlight */
+header .highlight,
+header .current a {
+  color: #e8491d;
+  font-weight: bold;
 }
 
-header a:hover{
-  
-
+/* Hover effect */
+header a:hover {
+  color: #cccccc;
 }
 
-footer{
-  
-
+/* Footer */
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  color: #ffffff;
+  background: #5c93a8;
+  text-align: center;
 }
-
